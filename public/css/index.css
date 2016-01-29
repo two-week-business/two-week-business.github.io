@@ -1,0 +1,87 @@
+body, html, .content {
+	font-family: 'Josefin Sans', sans-serif;
+	height: 100%
+}
+
+.logo-row {
+	margin-top: 40px;
+}
+
+.intro-row {
+	margin-top: 40px;
+}
+ 
+.section-1 {
+  	-webkit-transform-style: preserve-3d;
+  	-moz-transform-style: preserve-3d;
+  	transform-style: preserve-3d;
+
+  	position: relative;
+}
+
+.section {
+	visibility: hidden;
+	position: relative;
+}
+
+.next-section {
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+}
+
+.next-text-wrapper {
+	border: 2px solid #E2814B;
+	padding: 7px
+}
+
+.challenge-row {
+	margin-top: 40px;
+	font-weight: 700;
+}
+
+.steps {
+	margin-bottom: 10px;		
+}
+
+.challenge-text {
+	 margin-bottom: 0px;
+	 font-weight: 700;
+}
+
+.business-logo {
+	width: 25%;	
+}
+
+.team-pic-wrapper {
+	width: 75%;
+	margin-left: -4px;
+	display: inline-block;
+	position: relative;
+}
+
+.team-pic {
+	width: 100%;
+}
+
+.color-overlay {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(49,148,121,.7);	
+	z-index: 100;
+	color: #E2814B;
+}
+
+.stats {
+	padding-left: 10px;
+}
+
+.stats h2 {
+	font-weight: 700;
+}
+
+.team-row {
+	margin-top: 20px;
+}
