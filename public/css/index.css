@@ -1,5 +1,7 @@
 body, html, .content {
 	font-family: 'Josefin Sans', sans-serif;
+	/*font-family: 'Arimo', sans-serif;*/
+	/*font-family: 'Open Sans', sans-serif;*/
 	height: 100%
 }
 
@@ -50,7 +52,7 @@ body, html, .content {
 }
 
 .business-logo {
-	width: 25%;	
+	width: 25%;		
 }
 
 .team-pic-wrapper {
@@ -68,14 +70,14 @@ body, html, .content {
 	position: absolute;
 	top: 0px;
 	width: 100%;
-	height: 100%;
-	background: rgba(49,148,121,.7);	
-	z-index: 100;
-	color: #E2814B;
+	height: 100%;	
+	z-index: 100;	
 }
 
 .stats {
 	padding-left: 10px;
+	text-align: center;
+	padding-top: 20px;
 }
 
 .stats h2 {
@@ -84,4 +86,28 @@ body, html, .content {
 
 .team-row {
 	margin-top: 20px;
+}
+
+.team-row.even .color-overlay {
+	/*background: rgba(49,148,121,.7);*/
+	/*background: rgba(256, 256, 256,.7);	*/
+	background: rgba(255, 195, 161,.7);		
+	/*color: #FFA877;*/
+	/*color: #CC6124;*/
+}
+
+.team-row.odd .color-overlay {
+	/*background: rgba(226,129,75,.7);	*/
+	/*background: rgba(256, 256, 256,.7);	*/
+	background: rgba(128, 203, 182,.7);	
+	/*color: #0A694F;*/
+}
+
+.team-name-header {
+	color: black;
+	text-decoration: underline;
+}
+
+.explanation {
+	width: 20%;
 }
