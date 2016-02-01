@@ -15,12 +15,11 @@ $(function() {
 	})
 })
 
-$(window).load(function() {
+$(window).load(function() {	
 	setContentHeight();
-	
+
 	// now set the height for each of the flippers, which need don't have the correct height beacuse
 	// their children are absolutely positionned
-	console.log("LOADED!");
 	$(".flipper").each(function(i, el) {
 		$el = $(el)
 		var height = $el.find(".front").height();

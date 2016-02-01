@@ -134,6 +134,7 @@ body, html, .content {
 	perspective: 1000;
 	height: 100%;
 	width: 100%;
+	cursor: pointer;
 }
 /* flip the pane when hovered */
 .flip-container.flip .flipper, .flip-container.flip .flipper {
@@ -183,4 +184,56 @@ body, html, .content {
 
 .back a {
 	color: #5FA995
+}
+
+.business-name {
+	text-decoration: underline;
+	display: none;
+}
+
+.footer {
+	margin: 50px 0 20px 0;
+}
+
+@media (max-device-width: 480px) { 
+	h1 {
+		font-size: 90px;
+	}
+
+	h2 {
+		font-size: 75px;
+	}
+
+	h3 {
+		font-size: 60px;
+	}
+
+	h4 {
+		font-size: 40px;
+	}
+
+	body {
+		font-size: 25px;
+	}	
+
+	.business-name {
+		display: block;
+	}
+
+	.business-logo {
+		display: none;
+	}
+
+	.team-description {
+		font-size: 25px;
+	}
+
+	.stats h1 {
+		font-size: 40px;
+		margin-top: 5px;
+	}
+
+	.stats {
+		padding-top: 5px;
+	}
 }
