@@ -248,5 +248,6 @@ body, html, .content {
 	.flip .back {
 		z-index: 2;
 		transform: rotateX(0deg);
+		background: rgba(0, 0, 0,.8);
 	}
 }
