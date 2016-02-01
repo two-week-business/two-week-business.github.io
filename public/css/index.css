@@ -136,7 +136,7 @@ body, html, .content {
 	width: 100%;
 	cursor: pointer;
 }
-/* flip the pane when hovered */
+
 .flip-container.flip .flipper, .flip-container.flip .flipper {
 	transform: rotateX(180deg);
 }
@@ -235,5 +235,18 @@ body, html, .content {
 
 	.stats {
 		padding-top: 5px;
+	}
+
+	.flip-container.flip .flipper, .flip-container.flip .flipper {
+		transform: none;
+	}
+
+	.flip .front {
+		z-index: 0
+	}
+
+	.flip .back {
+		z-index: 2;
+		transform: rotateX(0deg);
 	}
 }
