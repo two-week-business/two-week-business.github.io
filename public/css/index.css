@@ -162,6 +162,11 @@ body, html, .content {
 	left: 0;
 }
 
+.team-pic-wrapper:hover {
+	height: 101%;
+	width: 101%;
+}
+
 .flip-container .flipper {
 	transform-origin: 100% 50%; /* half of height */
 }
