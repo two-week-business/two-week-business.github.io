@@ -123,73 +123,17 @@ body, html, .content {
 	padding: 10px 20px 10px 20px;
 }
 
-/*-----*/
-
-/*flipping the images*/
-
-/*-----*/
-
-/* entire container, keeps perspective */
-.flip-container {
-	perspective: 1000;
-	height: 100%;
-	width: 100%;
-	cursor: pointer;
-}
-
-.flip-container.flip .flipper, .flip-container.flip .flipper {
-	transform: rotateX(180deg);
-}
-
-/*.flip-container, .front, .back {
-	width: 320px;
-	height: 480px;
-}*/
-
-/* flip speed goes here */
-.flipper {
-	transition: 1s;
-	transform-style: preserve-3d;
-
-	position: relative;
-}
-
-/* hide back of pane during swap */
-.front, .back {
-	backface-visibility: hidden;
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-.team-pic-wrapper:hover {
+/*.team-pic-wrapper:hover {
 	height: 101%;
 	width: 101%;
-}
+}*/
 
-.flip-container .flipper {
-	transform-origin: 100% 50%; /* half of height */
-}
-
-/* front pane, placed above back */
-.front {
-	z-index: 2;
-	/* for firefox 31 */
-	transform: rotateX(0deg);
+.team-pic {
 	width: 100%;
 }
 
-/* back, initially hidden pane */
-.back {
-	transform: rotateX(180deg);
-	height: 100%;
-	width: 100%;
-	color: white;
-	background: rgba(0, 0, 0,.7);	
-}
-
-.back a {
-	color: #5FA995
+.business-logo {
+	margin-right: 20px;
 }
 
 .business-name {
@@ -199,6 +143,19 @@ body, html, .content {
 
 .footer {
 	margin: 50px 0 20px 0;
+}
+
+.model {
+	display: none;
+}
+
+.team-row a {
+	color: black;
+}
+
+.team-row a:hover {
+	color: black;
+	text-decoration: none;
 }
 
 @media (max-device-width: 480px) { 
