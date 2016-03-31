@@ -4,9 +4,9 @@ var teams = [
 	blog: "http://dtechseasonalgrams.weebly.com",
 	logo: "2/seasonal-logo.png",	
 	image: "2/seasonal-pic.png",
-	point1: "Easter Grams sold: 43",
-	point2: "Formal Grams sold: 14",
-	point3: "Serendades played: 6"
+	point1: "Easter Grams sold: 86 Spring Grams Sold",
+	point2: "Meals provided to local food bank: 200",
+	point3: "Serendades played: 9"
 },
 {
 	name: "Highlander",
@@ -22,8 +22,8 @@ var teams = [
 	blog: "http://buyourspam.weebly.com",
 	logo: "2/spam-logo.png",	
 	image: "2/spam-pic.png",
-	point1: "Spam Musubi sold: 134",
-	point2: "Vegetarian musubi Sold: 37",
+	point1: "Spam Musubi sold: 198",
+	point2: "Vegetarian musubi Sold: 7",
 	point3: "Business partnerships: 3"
 },
 {
@@ -49,16 +49,16 @@ var teams = [
 	logo: "2/first-logo.png",	
 	image: "2/first-pic.png",
 	point1: "Food items sold: 315",
-	point2: "Types of food: 5",
-	point3: "Ideas 'borrowed' from other teams: 3"
+	point2: "Types of food: 9",
+	point3: "Revenue: $600"
 },
 {
 	name: "Cheese Please",
 	blog: "https://medium.com/@buycheeseplease",
 	logo: "2/cheese-logo.png",	
 	image: "2/cheese-pic.png",
-	point1: "Grilled Cheese sold: 192",
-	point2: "School shirts sold: 8",
+	point1: "Grilled Cheese sold: 280",
+	point2: "School shirts sold: 3",
 	point3: "Laser etched Grilled Cheese sold: 1"
 },
 {
@@ -75,9 +75,9 @@ var teams = [
 	blog: "http://teamkasheblog.wordpress.com",
 	logo: "2/kashe-logo.png",	
 	image: "2/first-pic.png",
-	point1: "Profit from ice cream sandwhich sales: $105",
+	point1: "Profit from ice cream sandwhich sales: $150",
 	point2: "Profit from photography services: $33",
-	point3: "Ice cream toppings: 4 (if you include grilled cheese from other teams)"
+	point3: "Ice cream toppings: 5 (if you include grilled cheese from other teams)"
 },
 ]
 
