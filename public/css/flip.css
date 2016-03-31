@@ -1,0 +1,79 @@
+/*-----*/
+
+/*flipping the images*/
+
+/*-----*/
+
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000;
+	height: 100%;
+	width: 100%;
+	cursor: pointer;
+}
+
+.flip-container.flip .flipper, .flip-container.flip .flipper {
+	transform: rotateX(180deg);
+}
+
+/*.flip-container, .front, .back {
+	width: 320px;
+	height: 480px;
+}*/
+
+/* flip speed goes here */
+.flipper {
+	transition: 1s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.flip-container .flipper {
+	transform-origin: 100% 50%; /* half of height */
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateX(0deg);
+	width: 100%;
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateX(180deg);
+	height: 100%;
+	width: 100%;
+	color: white;
+	background: rgba(0, 0, 0,.7);	
+}
+
+.back a {
+	color: #5FA995
+}
+
+@media (max-device-width: 480px) { 
+	.flip-container.flip .flipper, .flip-container.flip .flipper {
+		transform: none;
+	}
+
+	.flip .front {
+		z-index: 0
+	}
+
+	.flip .back {
+		z-index: 2;
+		transform: rotateX(0deg);
+		background: rgba(0, 0, 0,.8);
+	}
+}
