@@ -74,7 +74,7 @@ var teams = [
 	name: "Kashè",
 	blog: "http://teamkasheblog.wordpress.com",
 	logo: "2/kashe-logo.png",	
-	image: "2/first-pic.png",
+	image: "2/kashe-pic.png",
 	point1: "Profit from ice cream sandwhich sales: $150",
 	point2: "Profit from photography services: $33",
 	point3: "Ice cream toppings: 5 (if you include grilled cheese from other teams)"
